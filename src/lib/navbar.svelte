@@ -1,13 +1,14 @@
 <nav>
     <ul>
-        <li><a href="/"> Neoni</a></li>
-        <li><a href="/artists-Songs">Songs</a></li>
-        <li><a href="/about"> About Neoni</a></li>
+        <li><img src="\Images\Night school studios logo.jpg" class="logo-img" alt="Night School Stuios Logo"></li>
+        <li><a href="/artists-Songs">Games</a></li>
+        <li><a href="/about"> About Night School Studios</a></li>
     </ul>
 </nav>
-<style>   
+<style>
+ 
 nav {
-    background-color: blue;
+    background-color: lightgreen;
 }
 nav ul {
     display: flex;
@@ -22,13 +23,19 @@ nav ul {
 nav li a {
     padding: 15px;
     font-size: 30px;
-	color: #ececec;
+	color: black;
 	text-align: center;
     justify-items: center;
 	text-decoration: none;
 	font-family: 'Cinzel', serif;
 }
 nav li a:hover {
-    background-color: #ec008c;
+    background-color: green;
+    color: aliceblue;
+}
+.logo-img {
+    width: 200px;
+    display: flex;
+    justify-content: left;
 }
 </style>
