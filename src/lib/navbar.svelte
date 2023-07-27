@@ -1,7 +1,7 @@
 <nav>
     <ul>
-        <li><img src="\Images\Night school studios logo.jpg" class="logo-img" alt="Night School Stuios Logo"></li>
-        <li><a href="/artists-Songs">Games</a></li>
+        <li><a href="/"><img src="\Images\Night school studios logo.jpg" class="logo-img" alt="Night School Stuios Logo"></a></li>
+        <li><a href="/games">Games</a></li>
         <li><a href="/about"> About Night School Studios</a></li>
     </ul>
 </nav>
@@ -36,6 +36,5 @@ nav li a:hover {
 .logo-img {
     width: 200px;
     display: flex;
-    justify-content: left;
 }
 </style>
