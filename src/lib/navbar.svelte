@@ -1,4 +1,4 @@
-<nav class="sticky">
+<nav class="hidden">
     <ul>
         <li><a href="/"><img src="\Images\Night school studios logo.jpg" class="logo-img" alt="Night School Stuios Logo"></a></li>
         <li><a href="/games">Games</a></li>
@@ -6,10 +6,9 @@
     </ul>
 </nav>
 <style>
- 
 nav {
     width: 100%;
-    background-color: rgba(0,0,0,0.3);  /* Set the transparency to 0.3 */
+    background-color: rgba(0,0,0,0.3);
     overflow: hidden;
 }
 nav ul {
@@ -40,11 +39,7 @@ nav li a img {
 nav li a img:hover {
     opacity: 0.7;
 }
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+.hidden {
+
 }
-
-
 </style>

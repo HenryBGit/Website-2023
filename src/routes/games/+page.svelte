@@ -1,10 +1,10 @@
-<link rel="stylesheet" type="text/css" href="src\routes\main.css"> 
+<link rel="stylesheet" type="text/css" href="\Css\main.css"> 
 <script>
 import Navbar from "$lib/navbar.svelte";
-import Videos from "$lib/videos.svelte";
+import Videos from "$/Videos";
 </script>
-<h1>This is the Games Page</h1>
 <main>
     <Navbar/>
+    <h1>This is the Games Page</h1>
     <Videos />
 </main>
