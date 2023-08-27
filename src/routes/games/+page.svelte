@@ -1,10 +1,10 @@
 <link rel="stylesheet" type="text/css" href="/Css/main.css"> 
 <script>
 import Navbar from "$lib/navbar.svelte";
-import Videos from "$lib/videos.svelte";
+import Games from "$lib/games.svelte";
 </script>
 <main>
-    <Navbar/>
+    <Navbar />
     <h1>This is the Games Page</h1>
-    <Videos />
+    <Games />
 </main>
