@@ -14,14 +14,14 @@
         width: 76vw;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+        margin: auto;
     }
     .grid-items {
         display: flex;
         justify-content: center;
-        width:75%;
+        width:100%;
     }
     .grid-items:hover {
-        
         cursor: pointer;
     }
 </style>

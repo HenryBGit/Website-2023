@@ -3,11 +3,11 @@
         <div class="container">
             <li><a href="/"><img src="\Images\Night school studios logo.jpg" class="logo-img" alt="Night School Stuios Logo"></a></li>
                 <div class="text">
-                    <li><a href="/games">Games Created</a></li>
+                    <li><a href="/games">Games</a></li>
                 <div class="border"></div>
                 </div>
                 <div class="text">
-                    <li><a href="/about"> About Night School Studios </a></li>
+                    <li><a href="/about"> About</a></li>
                 <div class="border"></div>
             </div>
             <div class="icons">
@@ -70,6 +70,7 @@ i:hover {
   display:grid;
   grid-template-columns:repeat(4, 1fr);
   width: 100%;
+  border: white 2px thick;
 }
 /*styling for the underline*/
 .border{
@@ -81,11 +82,11 @@ i:hover {
 /*Positioning the text*/
 .text {
     height: 1%; 
-    padding-top:1%;
+    padding: 1%;
 }
 /*width of the underline*/
 .container div:hover .border{
-  width:32%;
+  width:12%;
 }
 
 </style>
