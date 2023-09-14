@@ -24,6 +24,8 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         margin: auto;
+        padding-top: 10%;
+        padding-bottom: 4%;
     }
     .grid-items {
         display: flex;

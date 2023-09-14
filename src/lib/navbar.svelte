@@ -2,6 +2,7 @@
     <ul>
         <div class="container">
             <li><a href="/"><img src="\Images\Night school studios logo.jpg" class="logo-img" alt="Night School Stuios Logo"></a></li>
+            <!-- Clickable link on whole container need to talk to adon about this -->
                 <div class="text">
                     <li>
                         <a href="/games"> Games
@@ -46,11 +47,10 @@ nav li a {
     transition: color ease-in 0.35s;
 }
 nav li a:hover {
-    color: blue;
-    cursor: pointer;
+    color: #afdbf6;
 }
 nav li a img {
-    padding-top: 5px;
+    padding-top: 3%;
     padding-left: 7%;
     width: 200px;
     display: flex;
@@ -77,6 +77,7 @@ i {
 i:hover {
     color: white;
     transition: color 0.5s ease-out;
+    cursor: pointer;
 }
 
 /*Css For underline hover*/
