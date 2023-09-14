@@ -1,10 +1,19 @@
 <section class="grid">
-    <!--Need to change out the videos to images and then make the images turn into a video on hover-->
-    <video class="grid-items" src="/Videos/ox-video-bg_compress_opt.mp4" loop /> <!--Oxenfree video-->
-    <video class="grid-items" src="/Videos/lighthouse_1_opt.mp4" loop />  <!--Oxenfree 2 video-->
-    <video class="grid-items" src="/Videos/Afterparty_loop_compress_opt.mp4" loop />  <!--AfterParty video-->
-    <video class="grid-items" src="/Videos/route3-shorterclip_opt.mp4" loop /> <!--Next Stop Nowhere-->
-    <img class="grid-items" src="/Images/Mr robot banner.jpg"/> <!--Mr Robot Banner-->
+    <!--Need to make the images on hover turn into videos-->
+    <img class="grid-items" src="/Images/oxenfree banner.jpg" /> <!--Oxenfree banner-->
+    <img class ="grid-items" src="/Images/oxenfree banner 2.jpeg" /> <!--Oxenfree 2 banner-->
+    <img class="grid-items" src="/Images/afterparty banner.jpg" /> <!--AfterParty banner-->
+    <img class="grid-items" src="/Images/next stop nowhere banner.jpg" />
+    <img class="grid-items" src="/Images/Mr robot banner.jpg"/> <!--Mr Robot banner-->
+    
+    
+    
+    <!--
+    <video class="grid-items" src="/Videos/ox-video-bg_compress_opt.mp4" autoplay loop muted/> Oxenfree video
+    <video class="grid-items" src="/Videos/lighthouse_1_opt.mp4" autoplay loop muted/>  Oxenfree 2 video
+    <video class="grid-items" src="/Videos/Afterparty_loop_compress_opt.mp4" autoplay loop muted/>  AfterParty video
+    <video class="grid-items" src="/Videos/route3-shorterclip_opt.mp4" autoplay loop muted/> Next Stop Nowhere
+    -->
 </section>
 <style>
     .grid {
@@ -23,5 +32,10 @@
     }
     .grid-items:hover {
         cursor: pointer;
+    }
+    img:hover {
+    border: solid 15px white;
+    margin: -15px;
+    z-index: 50;
     }
 </style>

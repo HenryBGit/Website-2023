@@ -3,19 +3,23 @@
         <div class="container">
             <li><a href="/"><img src="\Images\Night school studios logo.jpg" class="logo-img" alt="Night School Stuios Logo"></a></li>
                 <div class="text">
-                    <li><a href="/games">Games</a></li>
-                <div class="border"></div>
-                </div>
-                <div class="text">
-                    <li><a href="/about"> About</a></li>
-                <div class="border"></div>
-            </div>
-            <div class="icons">
-                <li><a><i class="fa-brands fa-instagram"></i></a> </li>
-                <li><a><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a><i class="fa-brands fa-youtube"></i></a></li>
-                <li><a><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a><i class="fa-brands fa-tiktok"></i></a></li>
+                    <li>
+                        <a href="/games"> Games
+                            <div class="border"></div>
+                        </a>                        
+                    </li>
+                    <li>
+                        <a href="/about"> About
+                            <div class="border"></div>
+                        </a>                        
+                    </li>
+                    <div class="icons">
+                        <li><a><i class="fa-brands fa-instagram"></i></a> </li>
+                        <li><a><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a><i class="fa-brands fa-tiktok"></i></a></li>
+                    </div>
             </div>
         </div>        
     </ul>
@@ -35,8 +39,8 @@ nav ul {
 	overflow: hidden;
 }
 nav li a {
-    font-size: 30px; 
-	color: white    ;
+    font-size: 25px; 
+	color: white;
 	text-decoration: none;
 	font-family: 'Cinzel', serif;
     transition: color ease-in 0.35s;
@@ -46,47 +50,59 @@ nav li a:hover {
     cursor: pointer;
 }
 nav li a img {
+    padding-top: 5px;
     padding-left: 7%;
     width: 200px;
     display: flex;
     overflow: hidden;
-    border-radius: 25px
+    border-radius: 25px;
+    margin: 0;
 }
 nav li a img:hover {
     opacity: 0.7;
 }
+
 .icons {
     display: inline-flex;
+    justify-content: right;
+    gap:7px;
+    padding-right:75px;
+    align-items: center;
+    overflow: hidden;
+    margin:none;
 }
 i {
     color: gray;
 }
 i:hover {
     color: white;
+    transition: color 0.5s ease-out;
 }
+
 /*Css For underline hover*/
 /*Container that holds the content*/
  .container{
   display:grid;
-  grid-template-columns:repeat(4, 1fr);
+  grid-template-columns:repeat(2, 1fr);
   width: 100%;
-  border: white 2px thick;
 }
 /*styling for the underline*/
 .border{
   height:2px;
   width:0;
   background:red;
-  transition: width .2s linear;
+  transition: width .3s linear;
 }
 /*Positioning the text*/
 .text {
-    height: 1%; 
-    padding: 1%;
+    display:inline-flex;
+    gap: 10px;
+    justify-content: right;
+    align-items: center;
 }
 /*width of the underline*/
-.container div:hover .border{
-  width:12%;
+.text a:hover .border{
+  width:65%;
 }
 
 </style>
