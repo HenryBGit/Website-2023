@@ -34,10 +34,7 @@
     }
     .grid-items:hover {
         cursor: pointer;
-    }
-    img:hover {
-    border: solid 15px white;
-    margin: -15px;
-    z-index: 50;
+        clip-path: inset(4% 4% 4% 4%);
+       /* Need to make it so this transitions slowly instead */
     }
 </style>

@@ -56,7 +56,6 @@ nav li a img {
     display: flex;
     overflow: hidden;
     border-radius: 25px;
-    margin: 0;
 }
 nav li a img:hover {
     opacity: 0.7;
