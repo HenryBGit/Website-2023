@@ -1,10 +1,10 @@
 <section class="grid">
     <!--Need to make the images on hover turn into videos-->
-    <img class="grid-items" src="/Images/oxenfree banner.jpg" /> <!--Oxenfree banner-->
-    <img class ="grid-items" src="/Images/oxenfree banner 2.jpeg" /> <!--Oxenfree 2 banner-->
-    <img class="grid-items" src="/Images/afterparty banner.jpg" /> <!--AfterParty banner-->
-    <img class="grid-items" src="/Images/next stop nowhere banner.jpg" />
-    <img class="grid-items" src="/Images/Mr robot banner.jpg"/> <!--Mr Robot banner-->
+    <img class="grid-items" src="/Images/Oxenfree banner.jpg" alt="Oxenfree"/> <!--Oxenfree banner-->
+    <img class ="grid-items" src="/Images/oxenfree banner 2.jpeg" alt="Oxenfree 2"/> <!--Oxenfree 2 banner-->
+    <img class="grid-items" src="/Images/Afterparty banner.jpg" alt="Afterparty"/> <!--AfterParty banner-->
+    <img class="grid-items" src="/Images/next stop nowhere banner.jpg"  alt="Next Stop Nowehere"/>
+    <img class="grid-items" src="/Images/Mr robot banner.jpg" alt="Mr Robot"/> <!--Mr Robot banner-->
     
     
     
