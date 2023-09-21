@@ -14,6 +14,11 @@
                             <div class="border"></div>
                         </a>                        
                     </li>
+                    <li>
+                        <a href="/api"> Api Stuff
+                            <div class="border"></div>
+                        </a>                        
+                    </li>
                     <div class="icons">
                         <li><a><i class="fa-brands fa-instagram"></i></a> </li>
                         <li><a><i class="fa-brands fa-twitter"></i></a></li>
