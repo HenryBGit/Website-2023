@@ -7,6 +7,4 @@ import Games from "$lib/games.svelte";
     <Navbar />
     <Games />
     
-  
-    
 </main>

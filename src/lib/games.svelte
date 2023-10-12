@@ -1,19 +1,20 @@
 <section class="grid">
     <!--Text pops up on the images-->
-    <img class="grid-items" src="/Images/Oxenfree banner.jpg" alt="Oxenfree"/> <!--Oxenfree banner-->
-    <img class ="grid-items" src="/Images/oxenfree banner 2.jpeg" alt="Oxenfree 2"/> <!--Oxenfree 2 banner-->
-    <img class="grid-items" src="/Images/Afterparty banner.jpg" alt="Afterparty"/> <!--AfterParty banner-->
-    <img class="grid-items" src="/Images/next stop nowhere banner.jpg"  alt="Next Stop Nowehere"/>
-    <img class="grid-items" src="/Images/Mr robot banner.jpg" alt="Mr Robot"/> <!--Mr Robot banner-->
-    <div class="text"> 
-        <h2 class="hide">Oxenfree</h2>
-        <h2 class="hide">Oxenfree Ⅱ</h2>
-        <h2 class="hide">AfterParty</h2>
-        <h2 class="hide">Next Stop Nowhere</h2>
-        <h2 class="hide">Mr Robot</h2>
+    <div class="text">
+        <h2>Oxenfree</h2>
+        <h2>Oxenfree Ⅱ</h2>
+        <h2>AfterParty</h2>
+        <h2>Next Stop Nowhere</h2>
+        <h2>Mr Robot</h2>
     </div>
-   
+        <img class="grid-items" src="/Images/Oxenfree banner.jpg" alt="Oxenfree"/> <!--Oxenfree banner--> 
+        <img class="grid-items" src="/Images/oxenfree banner 2.jpeg" alt="Oxenfree 2"/> <!--Oxenfree 2 banner--> 
+        <img class="grid-items" src="/Images/Afterparty banner.jpg" alt="Afterparty"/> <!--AfterParty banner--> 
+        <img class="grid-items" src="/Images/next stop nowhere banner.jpg" alt="Next Stop Nowehere"/> <!--Next Stop Nowhere Banner-->
+        <img class="grid-items" src="/Images/Mr robot banner.jpg" alt="Mr Robot"/> <!--Mr Robot banner--> 
+     
 </section>
+
 <style>
     .grid {
         display: grid;
@@ -35,16 +36,13 @@
     .grid-items:hover {
         cursor: pointer;
         transform: scale(0.95);
-       /* Need to make it so this transitions slowly instead */
     }
     .text {
-        font-family: 'DM Serif Display', serif;
-
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
     }
-    /* .hide {
-        display: none;
-    } */
-    /* .hide:hover {
-        display: flex;
-    } */
+    
 </style>
