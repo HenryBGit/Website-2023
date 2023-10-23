@@ -44,5 +44,5 @@
     align-items: center;
     transition: all 0.5s;
     }
-    
+
 </style>

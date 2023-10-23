@@ -20,11 +20,11 @@
                         </a>                        
                     </li>
                     <div class="icons">
-                        <li><a><i class="fa-brands fa-instagram"></i></a> </li>
-                        <li><a><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a><i class="fa-brands fa-youtube"></i></a></li>
-                        <li><a><i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a><i class="fa-brands fa-tiktok"></i></a></li>
+                        <li><a href="https://www.instagram.com/nightschoolstudio/"><i class="fa-brands fa-instagram"></i></a> </li>
+                        <li><a href="https://twitter.com/nightschoolers"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/c/NightSchoolStudio"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="https://www.facebook.com/nightschoolstudio"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.tiktok.com/@nightschoolstudio"><i class="fa-brands fa-tiktok"></i></a></li>
                     </div>
             </div>
         </div>        
