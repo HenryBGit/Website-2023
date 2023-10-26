@@ -3,6 +3,6 @@
 import Navbar from "$lib/navbar.svelte";
 </script>
 <main>
-    <Navbar/>
+    <Navbar />
     <h1>This is The home page</h1>
 </main>
