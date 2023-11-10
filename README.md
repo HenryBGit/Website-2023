@@ -1,14 +1,14 @@
-#Purpose of Github Repository
+# Purpose of Github Repository
 The purpose of this repository is to let people see the progress that I have made for my website.
 
-#Technologies Used
+# Technologies Used
 SvelteKit, Github, UnsplashAPI
 
-#Known Bugs
+# Known Bugs
 There is a bug with the API, currently it does not load the images however it does console log them.
 Another Issue I have is that when you reload a new page the page will randomly flicker white.
 
-#Future Plans
+# Future Plans
 My future plans for this website is to fix the current known bugs, and to make certain pages look nicer, such as the about page.
 
 # Elements From Websites
