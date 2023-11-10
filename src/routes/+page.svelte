@@ -1,6 +1,5 @@
 <link rel="stylesheet" type="text/css" href="\Css\main.css"> 
 <script>
-import Footer from "$lib/footer.svelte";
 import Navbar from "$lib/navbar.svelte";
 import Top from "$lib/top.svelte"
 </script>
@@ -16,9 +15,6 @@ import Top from "$lib/top.svelte"
             <img class="grid-items" src="/Images/Mr robot banner.jpg" alt="Mr Robot"/> <!--Mr Robot banner--> 
          
     </section>
-<main> 
-    <Footer />
-</main>
 
 <style>
     .grid {
@@ -26,7 +22,6 @@ import Top from "$lib/top.svelte"
         display: grid;
         align-items: center;
         width: 76vw;
-        grid-template-rows: 1fr 1fr 1fr;
         margin: auto;
         padding-bottom: 4%;
         grid-gap:28px;
@@ -39,7 +34,6 @@ import Top from "$lib/top.svelte"
         transition: 0.125s ease-in;
     }
     .grid-items:hover {
-        cursor: pointer;
         transform: scale(0.95);
     }
 

@@ -5,6 +5,5 @@ import Api from "$lib/api.svelte";
 </script>
 <main>
     <Navbar/>
-    <h1>This is stuff for an api</h1>
     <Api/>
 </main>

@@ -15,28 +15,30 @@
 </section>
 
 <style>
-    
+    /*Style tags for the grid*/
     .grid {
         display: grid;
         align-items: center;
         width: 50vw;
         margin: auto;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns:1fr 1fr;
+        grid-gap: 30px;
     }
     .grid-items {
-        grid-template-rows: 1fr 1fr;
-        display: flex;
         justify-content: center;
-        width:100%;
+        width:60vh;
         transition: 0.125s ease-in;
     }
     .grid-items:hover {
         cursor: pointer;
         transform: scale(0.95);
     }
+    /*text inside the grid*/
     h1 {
         display: flex;
-        justify-content: center;
         font-family: 'DM Sans', sans-serif;
+        padding-left: 30px;
     }
 
 </style>
