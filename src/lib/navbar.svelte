@@ -83,9 +83,11 @@ i:hover {
 /*Css For underline hover*/
 /*Container that holds the content*/
  .container{
-  display:grid;
+  display:inline-flex;
   grid-template-columns:1fr;
-  width: 75%;
+  width: 80%;
+  justify-content: right;
+  overflow: hidden;
 }
 /*styling for the underline*/
 .border{
@@ -99,7 +101,6 @@ i:hover {
     display:inline-flex;
     gap: 10px;
     align-items: center;
-    justify-content: right;
 }
 /*width of the underline*/
 .text a:hover .border{

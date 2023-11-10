@@ -6,4 +6,6 @@ body {
     background-color: black;
     color:#ececec;
 }
-* {outline: 2px solid green;}
+html {
+    scroll-behavior: smooth;
+}
